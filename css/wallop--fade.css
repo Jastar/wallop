@@ -22,9 +22,9 @@
   has a higer z-index that the next one
  */
 .Wallop--fade .Wallop-item--hidePrevious,
-.Wallop--fade .Wallop-item--hideNext { z-index: 2; }
+.Wallop--fade .Wallop-item--hideNext { z-index: 1; }
 .Wallop--fade .Wallop-item--showPrevious,
-.Wallop--fade .Wallop-item--showNext { z-index: 1; }
+.Wallop--fade .Wallop-item--showNext { z-index: 2; }
 
  /*==========  FADE ANIMATIONS  ==========*/
 @-webkit-keyframes fadeOut {
